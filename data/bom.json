@@ -1,0 +1,86 @@
+{
+  "checked_on": "2026-08-30",
+  "destination": "44-100 Gliwice, Poland",
+  "currency": "PLN",
+  "profiles": {
+    "core": "Materials, assuming a suitable hand-sewing needle and black thread are already owned",
+    "complete": "Complete from-scratch materials and sewing supplies"
+  },
+  "shipping_groups": {
+    "allegro_faceguard": {
+      "vendor": "Allegro",
+      "shipping_pln": "10.49",
+      "source": "https://allegro.pl/produkt/przylbica-czolowa-neo-tools-z-regulacja-kata-i-obwodu-fc42e7fc-8807-4177-ba6c-fd812e5e5d3f"
+    },
+    "stoklasa_bundle": {
+      "vendor": "Stoklasa",
+      "shipping_pln": "12.70",
+      "source": "https://www.stoklasa.pl/zpusoby-doruceni-a-plateb-x3903"
+    }
+  },
+  "items": [
+    {
+      "id": "neo-97-392",
+      "name": "NEO Tools 97-392 adjustable steel-mesh faceguard",
+      "shipping_group": "allegro_faceguard",
+      "quantity": "1",
+      "unit_price_pln": "48.59",
+      "profiles": ["core", "complete"],
+      "url": "https://allegro.pl/produkt/przylbica-czolowa-neo-tools-z-regulacja-kata-i-obwodu-fc42e7fc-8807-4177-ba6c-fd812e5e5d3f"
+    },
+    {
+      "id": "stiff-black-tulle",
+      "name": "Stiff black tulle, 1 m",
+      "shipping_group": "stoklasa_bundle",
+      "quantity": "1",
+      "unit_price_pln": "13.29",
+      "profiles": ["core", "complete"],
+      "url": "https://www.stoklasa.pl/tiul-sztywny-x160513"
+    },
+    {
+      "id": "double-sided-hook-loop",
+      "name": "Black double-sided hook-and-loop tape, 20 mm x 1 m",
+      "shipping_group": "stoklasa_bundle",
+      "quantity": "1",
+      "unit_price_pln": "6.81",
+      "profiles": ["core", "complete"],
+      "url": "https://www.stoklasa.pl/tasma-rzep-szerokosc-20-mm-dwustronna-x128198"
+    },
+    {
+      "id": "reflective-tape",
+      "name": "Sew-on reflective tape, 25 mm x 5 m",
+      "shipping_group": "stoklasa_bundle",
+      "quantity": "1",
+      "unit_price_pln": "12.50",
+      "profiles": ["core", "complete"],
+      "url": "https://www.stoklasa.pl/tasma-odblaskowa-szerokosc-25-mm-do-naszycia-x150425"
+    },
+    {
+      "id": "black-moosgummi",
+      "name": "Non-adhesive black Moosgummi foam, two 20 x 30 cm sheets",
+      "shipping_group": "stoklasa_bundle",
+      "quantity": "1",
+      "unit_price_pln": "5.60",
+      "profiles": ["core", "complete"],
+      "url": "https://www.stoklasa.pl/pianka-gumowa-moosgummi-20x30cm-x130828?barva=144227"
+    },
+    {
+      "id": "needle-set",
+      "name": "Hand-sewing needle set",
+      "shipping_group": "stoklasa_bundle",
+      "quantity": "1",
+      "unit_price_pln": "5.41",
+      "profiles": ["complete"],
+      "url": "https://www.stoklasa.pl/zestaw-igiel-do-szycia-recznego-x151300"
+    },
+    {
+      "id": "black-thread",
+      "name": "Black 999 Unipoly polyester thread, 1000 m",
+      "shipping_group": "stoklasa_bundle",
+      "quantity": "1",
+      "unit_price_pln": "10.61",
+      "profiles": ["complete"],
+      "url": "https://www.stoklasa.pl/nici-poliestrowe-unipoly-nawoj-1000-m-x150393"
+    }
+  ]
+}

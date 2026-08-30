@@ -1,0 +1,1 @@
+date,build_revision,test_id,baseline_or_visor,camera_device,camera_direction,resolution,frame_rate_fps,distance_m,lighting,camera_light,tulle_angle_deg,face_box_seen,landmark_disruption_0_to_3,visibility_pass,comfort_pass,notes,next_safe_change

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" role="img" aria-labelledby="title desc">
+  <title id="title">A4 starter template for passive privacy visor foam panels</title>
+  <desc id="desc">Five conservative foam panel outlines and a twenty millimetre print calibration square.</desc>
+  <rect width="210" height="297" fill="white"/>
+  <g font-family="sans-serif" fill="#111">
+    <text x="15" y="15" font-size="6" font-weight="700">PASSIVE PRIVACY VISOR // FOAM STARTER TEMPLATE</text>
+    <text x="15" y="23" font-size="3.5">Print at 100% / actual size. Adapt in paper first. Round all cut edges.</text>
+  </g>
+
+  <g fill="none" stroke="#111" stroke-width="0.6" stroke-linejoin="round">
+    <path d="M20 38 L90 31 L86 55 L24 60 Z"/>
+    <path d="M120 31 L190 38 L186 60 L124 55 Z"/>
+    <path d="M22 91 L87 88 L78 140 L35 151 L18 122 Z"/>
+    <path d="M123 88 L188 91 L192 122 L175 151 L132 140 Z"/>
+    <path d="M60 177 L150 177 L158 211 L105 224 L52 211 Z"/>
+  </g>
+
+  <g font-family="sans-serif" fill="#333" font-size="4" text-anchor="middle">
+    <text x="55" y="48">LEFT BROW · 70 x 24 mm</text>
+    <text x="155" y="48">RIGHT BROW · 70 x 24 mm</text>
+    <text x="54" y="119">LEFT CHEEK</text>
+    <text x="156" y="119">RIGHT CHEEK</text>
+    <text x="105" y="198">CHIN · 90 x 34 mm</text>
+  </g>
+
+  <g fill="none" stroke="#00a3c7" stroke-width="0.5" stroke-dasharray="2 1">
+    <circle cx="26" cy="98" r="2"/><circle cx="80" cy="95" r="2"/>
+    <circle cx="29" cy="139" r="2"/><circle cx="181" cy="98" r="2"/>
+    <circle cx="130" cy="95" r="2"/><circle cx="181" cy="139" r="2"/>
+    <circle cx="64" cy="187" r="2"/><circle cx="146" cy="187" r="2"/>
+    <circle cx="105" cy="215" r="2"/>
+  </g>
+
+  <g transform="translate(15 247)">
+    <rect width="20" height="20" fill="none" stroke="#111" stroke-width="0.7"/>
+    <text x="25" y="9" font-family="sans-serif" font-size="4" fill="#111">Calibration square</text>
+    <text x="25" y="15" font-family="sans-serif" font-size="4" fill="#111">must measure 20 x 20 mm</text>
+  </g>
+
+  <text x="15" y="284" font-family="sans-serif" font-size="3.5" fill="#555">Dashed circles suggest sewing holes, at least 5 mm from an edge. Never pierce material while worn.</text>
+</svg>
