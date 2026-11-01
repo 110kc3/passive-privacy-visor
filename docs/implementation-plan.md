@@ -8,6 +8,7 @@
 - [x] Create geometry, starter templates, build instructions, and test records
 - [x] Automate and test the purchase totals
 - [x] Add continuous integration (CI) workflow running repository and budget test suites
+- [x] Add automated test-results matrix and disruption score validator (`scripts/evaluate_results.py`)
 - [ ] Buy parts for the exact Gliwice address
 - [ ] Inspect and fit the unmodified faceguard
 - [ ] Build and validate revision 1

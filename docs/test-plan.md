@@ -66,6 +66,12 @@ A revision is worth keeping when:
 
 If it fails visually but passes safely, adjust one exterior variable and retest. If it fails any safety check, stop using the revision regardless of camera performance.
 
+Automated acceptance verification can be performed with the evaluation tool:
+
+```bash
+python -m scripts.evaluate_results path/to/results.csv [--target-avg 2.0]
+```
+
 ## Data hygiene
 
 Store only the footage needed for comparison. Get explicit permission before sharing a participant's face. Crop or blur bystanders and remove location metadata before publishing results.
