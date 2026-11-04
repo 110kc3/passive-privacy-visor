@@ -25,6 +25,12 @@ Perform these checks in a well-lit, uncluttered room while seated, first with th
 
 Failure of any check means stop and enlarge/remove material. Passing this informal gate does not certify the device.
 
+Mechanical and visibility safety checklists can be logged and verified using the automated safety gate tool:
+
+```bash
+python -m scripts.safety_gate data/reference-safety-log-r1.json
+```
+
 ## Where not to wear it
 
 The mesh reduces light and the design can restrict peripheral vision. Do not use it while:

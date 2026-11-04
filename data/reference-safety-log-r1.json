@@ -1,0 +1,26 @@
+{
+  "revision": "R1-A5",
+  "inspector": "Lead Fabricator",
+  "date": "2026-09-02",
+  "mechanical_checks": {
+    "no_added_material_in_eye_corridor": true,
+    "exterior_seams_and_knots": true,
+    "unmodified_faceguard_structure": true,
+    "no_hazardous_fasteners": true,
+    "flip_up_cycles_20_without_catching": true,
+    "secure_strap_attachment": true
+  },
+  "visibility_checks": {
+    "phone_text_legible_each_eye": true,
+    "finger_count_at_1m_3m_and_periphery": true,
+    "floor_objects_visible_1m_2m": true,
+    "extreme_gaze_no_intrusion": true,
+    "normal_removal_without_snag": true
+  },
+  "seated_wear_tests": {
+    "one_minute_seated_symptom_free": true,
+    "ten_minute_seated_symptom_free": true,
+    "reported_symptoms": []
+  },
+  "notes": "R1 overlay fitted with 6 hook-and-loop straps. No knots or sharp edges inside carrier. Flip-up clears brow freely."
+}

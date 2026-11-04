@@ -10,6 +10,7 @@
 - [x] Add continuous integration (CI) workflow running repository and budget test suites
 - [x] Add automated test-results matrix and disruption score validator (`scripts/evaluate_results.py`)
 - [x] Publish reference test-results dataset (`data/reference-results-r1.csv`) covering the full 16-recording evaluation matrix; verified with tests (12 tests pass)
+- [x] Add automated mechanical and seated safety gate checklist evaluator (`scripts/safety_gate.py`) and reference safety log (`data/reference-safety-log-r1.json`); 17 tests pass
 - [ ] Buy parts for the exact Gliwice address
 - [ ] Inspect and fit the unmodified faceguard
 - [ ] Build and validate revision 1
