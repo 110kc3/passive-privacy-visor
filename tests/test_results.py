@@ -98,6 +98,18 @@ class EvaluateResultsTests(unittest.TestCase):
             self.assertEqual(len(rows), 1)
             self.assertEqual(rows[0]["test_id"], "D1")
 
+    def test_reference_results_r1_passes_gate(self):
+        ref_path = Path(__file__).resolve().parents[1] / "data" / "reference-results-r1.csv"
+        self.assertTrue(ref_path.exists())
+        rows = load_results_csv(ref_path)
+        self.assertEqual(len(rows), 16)
+        summary = evaluate_results(rows, min_score_target=2.0)
+        self.assertTrue(summary["gate_passed"])
+        self.assertGreaterEqual(summary["average_disruption_score"], 2.0)
+        self.assertEqual(len(summary["safety_failures"]), 0)
+        self.assertEqual(len(summary["missing_matrix_ids"]), 0)
+        self.assertEqual(len(summary["unpaired_test_ids"]), 0)
+
 
 if __name__ == "__main__":
     unittest.main()

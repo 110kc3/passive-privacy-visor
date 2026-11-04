@@ -1,0 +1,17 @@
+date,build_revision,test_id,baseline_or_visor,camera_device,camera_direction,resolution,frame_rate_fps,distance_m,lighting,camera_light,tulle_angle_deg,face_box_seen,landmark_disruption_0_to_3,visibility_pass,comfort_pass,notes,next_safe_change
+2026-09-01,R1-A5,D1,baseline,phone_rear,rear,1920x1080,30,1,diffuse_daylight,off,0,true,0,true,true,clear baseline,none
+2026-09-01,R1-A5,D1,visor,phone_rear,rear,1920x1080,30,1,diffuse_daylight,off,5,false,2,true,true,landmarks fragmented,test 10 deg
+2026-09-01,R1-A5,D2,baseline,phone_rear,rear,1920x1080,30,3,diffuse_daylight,off,0,true,0,true,true,clear baseline,none
+2026-09-01,R1-A5,D2,visor,phone_rear,rear,1920x1080,30,3,diffuse_daylight,off,5,false,3,true,true,face unparsed,none
+2026-09-01,R1-A5,I1,baseline,phone_rear,rear,1920x1080,30,1,indoor_ambient,off,0,true,0,true,true,clear baseline,none
+2026-09-01,R1-A5,I1,visor,phone_rear,rear,1920x1080,30,1,indoor_ambient,off,5,false,2,true,true,features split,none
+2026-09-01,R1-A5,I2,baseline,phone_rear,rear,1920x1080,30,3,indoor_ambient,off,0,true,0,true,true,clear baseline,none
+2026-09-01,R1-A5,I2,visor,phone_rear,rear,1920x1080,30,3,indoor_ambient,off,5,false,3,true,true,high disruption,none
+2026-09-01,R1-A5,F1,baseline,phone_rear,rear,1920x1080,30,1,indoor_ambient,on,0,true,0,true,true,direct flash baseline,none
+2026-09-01,R1-A5,F1,visor,phone_rear,rear,1920x1080,30,1,indoor_ambient,on,5,false,2,true,true,tulle reflection occludes eyes,none
+2026-09-01,R1-A5,F2,baseline,phone_rear,rear,1920x1080,30,3,indoor_ambient,on,0,true,0,true,true,flash baseline 3m,none
+2026-09-01,R1-A5,F2,visor,phone_rear,rear,1920x1080,30,3,indoor_ambient,on,5,false,3,true,true,glare pattern active,none
+2026-09-01,R1-A5,W1,baseline,laptop_webcam,front,1280x720,30,0.6,indoor_ambient,off,0,true,0,true,true,webcam baseline,none
+2026-09-01,R1-A5,W1,visor,laptop_webcam,front,1280x720,30,0.6,indoor_ambient,off,5,false,2,true,true,eyes occluded,none
+2026-09-01,R1-A5,M1,baseline,phone_front,front,1920x1080,30,0.5,indoor_ambient,off,0,true,0,true,true,front camera selfie baseline,none
+2026-09-01,R1-A5,M1,visor,phone_front,front,1920x1080,30,0.5,indoor_ambient,off,5,false,2,true,true,geometry distorted,none
